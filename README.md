@@ -41,6 +41,8 @@ O Rocket.Q é uma aplicação realizada na Next Level Week Together da Rocketsea
 
 💻 SQLite
 
+# 🔨 Melhorias
+
 ## :camera: Veja:
 
 ### Aplicação
