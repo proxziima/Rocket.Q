@@ -46,6 +46,16 @@ textarea{
     margin: 0 auto;
 }
 
+.content header{
+    width: 80%;
+    margin: 3.5rem auto;
+}
+
+.content header img{
+    width:  16.7rem;
+}
+
+ 
 .sr-only{
     position: absolute;
     width: 1px;
@@ -85,7 +95,8 @@ button:hover, .button:hover{
     transition: filter .2s;
 }
 
-button > img, .button > img {
+button > img,
+ .button > img {
     margin-right: 1rem;
     width: 2rem;
 }
