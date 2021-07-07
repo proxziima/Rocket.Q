@@ -8,6 +8,7 @@
     <!-- =========================== STYLESHEET =========================== -->
     <link rel="stylesheet" type="text/css" href="./assets/styles/global.css">
     <link rel="stylesheet" type="text/css" href="./assets/styles/room.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/modal.css">
 
     <!-- ========================= GOOGLE FONTS ============== ============= -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +42,7 @@
                 <h2>Faça a sua pergunta</h2>
                 <form action="">
                     <label for="question" class="sr-only">O que você quer perguntar</label>
-                    <textarea name="question" id="question" rows="3" placeholder="O que você quer perguntar"></textarea>
+                    <textarea name="question" id="question" placeholder="O que você quer perguntar"></textarea>
                     <footer>
                         <div>
                             <img src="./assets/img/lock.svg" alt="Cadeado">
@@ -59,7 +60,7 @@
                     <div class="question-wrapper">
                         <div class="question-content">
                             <div class="user">
-                                <img src="./assets/img/avatar.svg" alt="Avatar do usuário">
+                                <img src="./assets/img/user.svg" alt="Avatar do usuário">
                             </div>
                             <div class="question">
                                 <p>Qual a diferençá entre const, var e let no Javascript</p>
@@ -81,7 +82,7 @@
                     <div class="question-wrapper">
                         <div class="question-content">
                             <div class="user">
-                                <img src="./assets/img/avatar.svg" alt="Avatar do usuário">
+                                <img src="./assets/img/user.svg" alt="Avatar do usuário">
                             </div>
                             <div class="question">
                                 <p>O que é Javascript</p>
@@ -103,10 +104,10 @@
                     <div class="question-wrapper">
                         <div class="question-content">
                             <div class="user">
-                                <img src="./assets/img/avatar.svg" alt="Avatar do usuário">
+                                <img src="./assets/img/user.svg" alt="Avatar do usuário">
                             </div>
                             <div class="question">
-                                <p>O que é Typescript</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda maxime consequatur consectetur beatae. Cum dignissimos ratione amet, explicabo veritatis labore. Iure dignissimos quae, nisi blanditiis assumenda ipsam, impedit quia non rerum sint perferendis tempore quibusdam?</p>
                             </div>
                         </div>
                         <div class="actions">
@@ -120,10 +121,43 @@
                             </a>
                         </div>
                     </div>
-                </div>
 
+                    <!-- ====================== QUARTA QUESTÃO ============================ -->
+                    <div class="question-wrapper read">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="./assets/img/user.svg" alt="Avatar do usuário">
+                            </div>
+                            <div class="question">
+                                <p>O que é Typescript</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <a class="delete" href="#">
+                                <img src="./assets/img/trash.svg" alt="Excluir">
+                                Excluir
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
+    </div>
+
+    <div class="modal-wrapper">
+        <div class="modal">
+            <h2>Excluir pergunta</h2>
+            <p>Tem certeza de que você deseja excluir esta pergunta?</p>
+            <form action="">
+                <label for="password" class="sr-only">Digite a sua senha de admin</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha">
+            </form>
+
+            <div class="buttons">
+                <div class="button grey">Cancelar</div>
+                <button class="red">Sim, excluir</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>

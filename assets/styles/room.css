@@ -99,11 +99,21 @@
 
 .question-wrapper .question-content{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.question-wrapper .question-content .user{
+    background-color: var(--blue);
+    clip-path: circle();
+    padding: 1.4rem;
 }
 
 .question-wrapper .question-content p{
+    min-height: 5.2rem;
     margin-left: 1.6rem;
+    word-break: break-word;
+    display: flex;
+    align-items: center;
 }
 
 .question-wrapper .actions{
@@ -123,4 +133,14 @@
 
 .question-wrapper .actions > a > img{
     margin-right: .8rem;
+}
+
+/* Question Read */
+
+.question-wrapper.read{
+    background-color: var(--grey-ultra-light);
+}
+
+.question-wrapper.read .question-content .user{
+    background-color: var(--grey-blue);
 }

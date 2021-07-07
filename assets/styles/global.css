@@ -14,12 +14,13 @@ html{
     --light-blue: #E0ECFF;
     --blue: #3485FF;
     --background: #FBFCFF;
-    --overlay: #040911;
+    --overlay: hsla(217, 62%, 4%, .8);
     --details: #A5B0C1;
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
     --grey-medium: #D3D9E2;
     --grey-light: #E5EAF1;
+    --grey-ultra-light: #eaecf2;
 
     font-size: 62.5%;
 }
@@ -105,4 +106,16 @@ button.outlined, .button.outlined{
     background: var(--white);
     color: var(--blue);
     border: .2rem solid var(--blue);
+}
+
+button.red,
+.button.red{
+    background-color: var(--red);
+    color: var(--white);
+}
+
+button.grey,
+.button.grey{
+    background-color: var(--grey-light);
+    color: var(--grey-dark);
 }
