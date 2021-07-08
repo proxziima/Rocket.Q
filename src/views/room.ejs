@@ -146,18 +146,22 @@
 
     <div class="modal-wrapper">
         <div class="modal">
-            <h2>Excluir pergunta</h2>
+            <h2>Excluir estar pergunta</h2>
             <p>Tem certeza de que você deseja excluir esta pergunta?</p>
-            <form action="">
+            <form action="" method="POST">
                 <label for="password" class="sr-only">Digite a sua senha de admin</label>
                 <input type="password" name="password" id="password" placeholder="Digite sua senha">
             </form>
 
             <div class="buttons">
-                <div class="button grey">Cancelar</div>
+                <div class="button grey cancel">Cancelar</div>
                 <button class="red">Sim, excluir</button>
             </div>
         </div>
     </div>
+
+
+    <!-- SCRIPT -->
+    <script src="scripts/main.js" defer type="module"></script>
 </body>
 </html>
